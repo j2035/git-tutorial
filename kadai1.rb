@@ -6,6 +6,8 @@ for i in 1..30
         puts "Fizz"
     elsif i%5==0 
         puts "Buzz"
+    elsif i%7==0
+	puts "Git"
     else
         puts i
     end
